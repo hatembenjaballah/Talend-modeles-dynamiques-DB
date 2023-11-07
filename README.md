@@ -42,7 +42,7 @@ Table source Invoice(SQLite) => Table cible Invoice (MySQL)
 		);
 	```
 	2. Creation d'un fichier properties dans le repertoir du job générer 
-		../job_chargement_donnee_0.1/job_chargement_donnee/projet/job_chargement_donnee_0_1/contexts/ConfigSqlliteToMysqlInvoice.properties 
+	/job_chargement_donnee_0.1/job_chargement_donnee/projet/job_chargement_donnee_0_1/contexts/ConfigSqlliteToMysqlInvoice.properties 
 	```
 		## parametre de connexion pour la base de donnée source
 		connection_source_drivers="mvn:org.xerial/sqlite-jdbc/3.40.0.0/jar"
@@ -61,7 +61,9 @@ Table source Invoice(SQLite) => Table cible Invoice (MySQL)
 		connection_destination_jdbcUrl=jdbc:mysql://localhost:3306/data
 		connection_destination_jdbcTable=invoice
 	```
+ 
 	![Config Sqllite To Mysql Invoice.](/image/ConfigSqlliteToMysqlInvoice.PNG "Config Sqllite To Mysql Invoice.")
+ 
 	3. Modifier le script 	../job_chargement_donnee_0.1/job_chargement_donnee/job_chargement_donnee_run.bat
 		remplacer le contenu avec cette commande : (Exemple)
 	```
