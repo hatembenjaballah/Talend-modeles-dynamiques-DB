@@ -56,6 +56,7 @@ java -Xms256M -Xmx1024M -cp .;../lib/*;job_chargement_donnee_0_1.jar; projet.job
 ```
 job_chargement_donnee_run.bat
 ```	
+![job chargement donnee run.](/image/Exec-script1.png "job chargement donnee run.")
 > NB : Assurer vous que les libs 
 >	- sqlite-jdbc-3.40.0.0.jar
 >	- mysql-connector-java-5.1.49.jar
@@ -65,8 +66,7 @@ job_chargement_donnee_run.bat
 ![job chargement donnee run.](/image/lib-1.png "job chargement donnee run.")
 
 5. Verification du resultat
-![job chargement donnee run.](/image/Exec-script1.png "job chargement donnee run.")	
-
+![job chargement donnee run.](/image/verification-resultat.png "job chargement donnee run.")
 ### Etape 2 : on va changer de configuration (type de base de donnée)
 Table source Invoice(MySQL) => Table cible Invoice (MariaDB)
 1. Creation de la table cible (MariaDB)
@@ -93,6 +93,7 @@ java -Xms256M -Xmx1024M -cp .;../lib/*;job_chargement_donnee_0_1.jar; projet.job
 ```
 job_chargement_donnee_run.bat
 ```
+![job chargement donnee run.](/image/Exec-script2.png "job chargement donnee run.")	
 > NB : Assurer vous que les libs 
 > 	- mariadb-java-client-3.1.4.jar
 > 	- mysql-connector-java-5.1.49.jar
@@ -102,4 +103,4 @@ job_chargement_donnee_run.bat
 ![job chargement donnee run.](/image/lib-2.png "job chargement donnee run.")	
 
 5. Verification du resultat
-![job chargement donnee run.](/image/Exec-script2.png "job chargement donnee run.")	
+![job chargement donnee run.](/image/verification-resultat1.png "job chargement donnee run.")	
