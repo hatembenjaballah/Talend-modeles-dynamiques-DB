@@ -17,11 +17,11 @@ Job de chargement dynamique des données d'une base source à une base destinati
 ## Composants 
 | Composants | Configuration |
 | ------ | ------ |
-| Configuration du composant tDBInput_1 | ![Talend modèles dynamiques DB.](/image/job-tDBInput.PNG "Talend modèles dynamiques DB.") |
-| Configuration du composant tDBOutput_1 | ![Talend modèles dynamiques DB.](/image/job-tDBOutput.PNG "Talend modèles dynamiques DB.") |
+| Configuration du composant tDBInput_1 | ![Talend modèles dynamiques DB.](/image/job-tDBInput.png "Talend modèles dynamiques DB.") |
+| Configuration du composant tDBOutput_1 | ![Talend modèles dynamiques DB.](/image/job-tDBOutput.png "Talend modèles dynamiques DB.") |
 
 ## Construction du Job
-![Construction du Job.](/image/construire-job.PNG "Construction du Job.")
+![Construction du Job.](/image/construire-job.png "Construction du Job.")
 
 
 ## Teste: 
@@ -43,7 +43,7 @@ CREATE TABLE Invoice
 ```
 2. Creation d'un fichier properties dans le repertoir du job générer 
 ../job_chargement_donnee_0.1/job_chargement_donnee/projet/job_chargement_donnee_0_1/contexts/ConfigSqlliteToMysqlInvoice.properties 
-![Config Sqllite To Mysql Invoice.](/image/ConfigSqlliteToMysqlInvoice.PNG "Config Sqllite To Mysql Invoice.")
+![Config Sqllite To Mysql Invoice.](/image/ConfigSqlliteToMysqlInvoice.png "Config Sqllite To Mysql Invoice.")
  
 3. Modifier le script 	../job_chargement_donnee_0.1/job_chargement_donnee/job_chargement_donnee_run.bat
 remplacer le contenu avec cette commande : (Exemple)
@@ -64,7 +64,7 @@ job_chargement_donnee_run.bat
 
 ![job chargement donnee run.](/image/lib-1.png "job chargement donnee run.")
 
-5. verification du resultat
+5. Verification du resultat
 ![job chargement donnee run.](/image/Exec-script1.png "job chargement donnee run.")	
 
 ### Etape 2 : on va changer de configuration (type de base de donnée)
@@ -80,7 +80,7 @@ CREATE TABLE Invoice
 ```
 2. Creation d'un fichier properties dans le repertoir du job générer 
 ../job_chargement_donnee_0.1/job_chargement_donnee/projet/job_chargement_donnee_0_1/contexts/ConfigMysqlToMariaDbInvoice.properties 
-![Config Mysql To MariaDb Invoice.](/image/ConfigMysqlToMariaDbInvoice.PNG "Config Mysql To MariaDb Invoice.")
+![Config Mysql To MariaDb Invoice.](/image/ConfigMysqlToMariaDbInvoice.png "Config Mysql To MariaDb Invoice.")
 
 4. Modifier le script 	../job_chargement_donnee_0.1/job_chargement_donnee/job_chargement_donnee_run.bat
 remplacer le contenu avec cette commande : (Exemple)
@@ -101,5 +101,5 @@ job_chargement_donnee_run.bat
 
 ![job chargement donnee run.](/image/lib-2.png "job chargement donnee run.")	
 
-5. verification du resultat
+5. Verification du resultat
 ![job chargement donnee run.](/image/Exec-script2.png "job chargement donnee run.")	
