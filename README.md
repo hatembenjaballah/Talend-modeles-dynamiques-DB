@@ -9,7 +9,7 @@ Job de chargement dynamique des données d'une base source à une base destinati
 - Dbeaver Version 23.1.0
 - MySQL Version 5.1.30
 - MariaDB Version 11.0
-
+- SQLite DB : db/Chinook.db
 ## Description
 > Nous prévoyons de développer des modèles dynamiques en utilisant un schéma dynamique pour transférer des données de manière fluide de leur source vers leur destination. De plus, nous envisageons la possibilité de rendre le type de base de données dynamique.
 ![JOB.](/image/job.png "JOB")
